@@ -4,11 +4,11 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "jb siraudin's blog",
+  title: "greg siraudin's blog",
   tagline: 'mostly game design stuff',
-  organizationName: 'jbsiraudin',
-  projectName: 'jbsiraudin.github.io',
-  url: 'https://jbsiraudin.github.io',
+  organizationName: 'gregsiraudin',
+  projectName: 'gregsiraudin.github.io',
+  url: 'https://gregsiraudin.github.io',
   baseUrl: '/',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -22,7 +22,7 @@ module.exports = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'jb siraudin',
+      title: 'gregoire siraudin',
       logo: {
         alt: 'logo',
         src: 'img/logo.svg',
@@ -31,7 +31,7 @@ module.exports = {
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/portfolio', label: 'Portfolio', position: 'left' },
         { to: '/misc', label: 'Misc', position: 'left' },
-        { to: '/timeliner', label: 'Timeliner', position: 'left' },
+        //{ to: '/timeliner', label: 'Timeliner', position: 'left' },
       ],
     },
     footer: {
@@ -42,19 +42,15 @@ module.exports = {
           items: [
             {
               label: 'Email',
-              href: 'mailto:jb.siraudin@gmail.com',
+              href: 'mailto:gregoire.siraudin@gmail.com',
             },
             {
               label: 'Twitter',
               href: 'https://twitter.com/scinema_x',
             },
             {
-              label: 'Bluesky',
-              href: 'https://bsky.app/profile/jbsiraudin.bsky.social',
-            },
-            {
               label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/jean-baptiste-siraudin/',
+              href: 'https://www.linkedin.com/in/gregoire-siraudin/',
             },
           ],
         },
@@ -63,25 +59,17 @@ module.exports = {
           items: [
             {
               label: 'Resume',
-              href: '/files/JeanBaptisteSiraudinResume.pdf',
+              href: '/files/GregoireSiraudinResume.pdf',
               target: '_blank',
             },
             {
-              label: 'Scinema',
-              href: 'https://www.youtube.com/c/Scinemax',
-            },
-            {
-              label: 'The Shape of Movies',
-              href: 'https://theshapeofmovies.com',
-            },
-            {
-              label: 'Papertoy',
-              href: 'https://papertoy.dev',
+              label: 'SoundCloud',
+              href: 'https://soundcloud.com/altio92130',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Jean-Baptiste Siraudin`,
+      copyright: `Copyright © ${new Date().getFullYear()} Grégoire Siraudin`,
     },
     prism: {
       theme: prismThemes.github,

@@ -20,7 +20,7 @@ a {
 h1,
 h2,
 strong {
-  color: #111;
+  color: #38065f;
 }
 h3 a {
   text-decoration: none;
@@ -38,7 +38,7 @@ h3 a {
   box-shadow: black 1px 1px 1px;
 }
 .header h1 {
-  color: #111;
+  color: #38065f;
   display: inline-block;
   margin: 0;
 }

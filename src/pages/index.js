@@ -14,18 +14,17 @@ export default function Home() {
         }}
       >
         <div className="prose">
-          <p>Hi, I'm Jean-Baptiste, game designer at Ubisoft Paris.</p>
+          <p>Bonjour, je suis Grégoire Siraudin, étudiant en 3ème année de l'Epita Paris.</p>
           <p>
-            <strong>I enjoy making games and experiences that makes you think differently</strong>.
-            I also practice maths, graphics programming, video editing and writing as a hobbyist. I
-            studied maths, physics and mechanical engineering before trying my hand in design, and
-            I'm still deeply attached to science topics.
+            A l'école, j'étudie l'algorithmie, la programmation et les mathématiques. <strong>J'aime créer des choses originals 
+            ayant pour but de créer des experiences engagantes</strong>. J'ai été forgé par mon entourages au travail d'equipe. 
+            Et durant ma scolarité, j'ai eu la chance de pouvoir réaliser divers projects enseignants des sujets complexes.
           </p>
           <p>
-            This website will store various <Link to="/blog">blog posts</Link> about game design,
-            science and hopefully some interactive tools/experiments to go with.
+            Ce site web retranscris plusieurs <Link to="/blog">blogs</Link> ayant des analyses sur le game design,
+            la musique et plusieurs description de <Link to="/portefolio">projets</Link> auxquelles j'ai participé.
           </p>
-          <p>Enjoy your stay ☕</p>
+          <p>Restez autant que vous voulez ☕</p>
         </div>
       </main>
     </Layout>
