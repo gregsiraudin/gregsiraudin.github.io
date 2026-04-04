@@ -22,7 +22,7 @@ export default function Home() {
           </p>
           <p>
             Ce site web retranscris plusieurs <Link to="/blog">blogs</Link> ayant des analyses sur le game design,
-            la musique et plusieurs description de <Link to="/portefolio">projets</Link> auxquelles j'ai participé.
+            la musique et plusieurs description de <Link to="/portfolio">projets</Link> auxquelles j'ai participé.
           </p>
           <p>Restez autant que vous voulez ☕</p>
         </div>
