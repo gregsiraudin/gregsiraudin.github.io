@@ -154,3 +154,26 @@ J’ai notamment contribué à :
 - l’utilisation du **visitor pattern** pour parcourir et manipuler l’arbre
 
 Ce projet m’a permis d’approfondir ma compréhension des compilateurs, de l’analyse statique et de la structuration de programmes complexes en C++.
+
+## 🧪 Yakamon JWS
+
+Dans le cadre du projet **Yakamon JWS**, j’ai développé un backend en Java avec Quarkus, exposant une API REST permettant de gérer un jeu basé sur une carte et des interactions joueur.
+
+J’ai travaillé sur la conception et l’implémentation de plusieurs endpoints, notamment :
+
+- initialisation d’une partie (`/start`)
+- déplacement du joueur (`/move`)
+- collecte d’objets (`/collect`)
+- gestion de l’inventaire (`/inventory`)
+- interaction avec le Yakadex (`/yakadex`)
+
+J’ai également conçu les modèles de données et leur persistance avec **Hibernate ORM**, en structurant les entités du jeu (joueur, carte, objets, yakamons).
+
+Une attention particulière a été portée à la logique métier, notamment :
+
+- gestion des cooldowns sur les actions
+- validation des interactions avec la carte
+- mise à jour dynamique de l’état du jeu
+- gestion des erreurs et cohérence des réponses API
+
+Ce projet m’a permis de développer mes compétences en conception d’API REST, en architecture backend et en gestion de la persistance de données avec Java.
