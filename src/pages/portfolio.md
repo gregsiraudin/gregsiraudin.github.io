@@ -1,6 +1,6 @@
 # Portolio de Grégoire Siraudin
 
-## Musical Heart
+## Musical Heart -- C#
 
 Durant ma première année à EPITA, j’ai participé à la création d’un jeu vidéo en C# au sein d’une équipe de 4 personnes.
 
@@ -61,7 +61,7 @@ Vous pouvez en voir davantage sur ce projet, ou même le télécharger, sur ce [
 
 Vous pouvez également retrouver les autres musiques [ici](https://soundcloud.com/altio92130).
 
-## GEN-IA-LE
+## GEN-IA-LE -- C
 
 **GEN-IA-LE** est un projet de résolution automatique de grilles de mots cachés à partir d’une image. L’objectif était de concevoir un programme capable de détecter les lettres présentes dans une grille, de reconnaître les mots recherchés dans toutes les directions, puis de résoudre la grille de manière rapide et fiable.
 
@@ -120,7 +120,7 @@ De manière générale, le fonctionnement du programme suivait les étapes suiva
 
 Ce projet m’a permis de travailler à la fois sur l’interface graphique, le traitement d’image, l’organisation d’un pipeline de résolution et l’optimisation algorithmique.
 
-## 42sh
+## 42sh -- C
 
 Avec **42sh**, j’ai implémenté un shell Unix complet en langage C, en reproduisant le comportement d’un interpréteur de commandes classique.
 
@@ -139,7 +139,7 @@ J’ai également conçu une architecture basée sur un **AST (Abstract Syntax T
 
 Ce projet m’a permis de mieux comprendre le fonctionnement interne d’un système Unix et de renforcer mes compétences en programmation système et en conception logicielle.
 
-## Tiger Compiler
+## Tiger Compiler -- C++
 
 Dans le cadre du projet **Tiger**, j’ai participé à l’implémentation d’un compilateur en C++, en suivant les différentes étapes classiques de compilation.
 
@@ -155,7 +155,7 @@ J’ai notamment contribué à :
 
 Ce projet m’a permis d’approfondir ma compréhension des compilateurs, de l’analyse statique et de la structuration de programmes complexes en C++.
 
-## 🧪 Yakamon JWS
+## Yakamon JWS -- JAVA
 
 Dans le cadre du projet **Yakamon JWS**, j’ai développé un backend en Java avec Quarkus, exposant une API REST permettant de gérer un jeu basé sur une carte et des interactions joueur.
 
