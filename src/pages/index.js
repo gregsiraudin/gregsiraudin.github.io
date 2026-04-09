@@ -14,16 +14,20 @@ export default function Home() {
         }}
       >
         <div className="prose">
-          <p>Bonjour, je suis Grégoire Siraudin, étudiant en 3ème année de l'Epita Paris.</p>
+          <p>Bonjour, je suis Grégoire Siraudin, étudiant en troisième année à EPITA Paris.</p>
+
           <p>
-            A l'école, j'étudie l'algorithmie, la programmation et les mathématiques. <strong>J'aime créer des choses originals 
-            ayant pour but de créer des experiences engagantes</strong>. J'ai été forgé par mon entourages au travail d'equipe. 
-            Et durant ma scolarité, j'ai eu la chance de pouvoir réaliser divers projects enseignants des sujets complexes.
+            À l’école, j’étudie l’algorithmie, la programmation et les mathématiques. 
+            <strong>J’aime créer des expériences originales et engageantes.</strong> 
+            J’ai été formé au travail d’équipe grâce aux différents projets menés au cours de ma scolarité, 
+            durant lesquels j’ai eu l’opportunité d’aborder des problématiques complexes.
           </p>
+
           <p>
-            Ce site web retranscris plusieurs <Link to="/blog">blogs</Link> ayant des analyses sur le game design,
-            la musique et plusieurs description de <Link to="/portfolio">projets</Link> auxquelles j'ai participé.
+            Ce site web présente plusieurs <Link to="/blog">articles</Link> autour du game design et de la musique, 
+            ainsi que des <Link to="/portfolio">projets</Link> auxquels j’ai participé.
           </p>
+
           <p>Restez autant que vous voulez ☕</p>
         </div>
       </main>

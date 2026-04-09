@@ -119,3 +119,38 @@ De manière générale, le fonctionnement du programme suivait les étapes suiva
 
 
 Ce projet m’a permis de travailler à la fois sur l’interface graphique, le traitement d’image, l’organisation d’un pipeline de résolution et l’optimisation algorithmique.
+
+## 42sh
+
+Avec **42sh**, j’ai implémenté un shell Unix complet en langage C, en reproduisant le comportement d’un interpréteur de commandes classique.
+
+À travers ce projet, j’ai travaillé sur des problématiques systèmes bas niveau, notamment la gestion des processus, des appels système et le parsing de commandes complexes.
+
+J’ai développé les fonctionnalités suivantes :
+
+- exécution de commandes simples
+- gestion des opérateurs logiques (`&&`, `||`)
+- implémentation des pipelines
+- gestion des redirections (`<`, `>`, `>>`)
+- parsing avancé des entrées utilisateur
+- gestion des processus avec `fork`, `exec` et `wait`
+
+J’ai également conçu une architecture basée sur un **AST (Abstract Syntax Tree)** afin de structurer et d’exécuter efficacement les commandes.
+
+Ce projet m’a permis de mieux comprendre le fonctionnement interne d’un système Unix et de renforcer mes compétences en programmation système et en conception logicielle.
+
+## Tiger Compiler
+
+Dans le cadre du projet **Tiger**, j’ai participé à l’implémentation d’un compilateur en C++, en suivant les différentes étapes classiques de compilation.
+
+J’ai travaillé sur la transformation d’un code source en une représentation exploitable, en assurant sa validité syntaxique et sémantique.
+
+J’ai notamment contribué à :
+
+- la construction de l’**AST (Abstract Syntax Tree)**
+- la mise en place du **binder** pour la gestion des identifiants et des scopes
+- l’analyse sémantique et le **type-checking**
+- la gestion des symboles via une **table des symboles**
+- l’utilisation du **visitor pattern** pour parcourir et manipuler l’arbre
+
+Ce projet m’a permis d’approfondir ma compréhension des compilateurs, de l’analyse statique et de la structuration de programmes complexes en C++.
