@@ -178,7 +178,7 @@ Une attention particulière a été portée à la logique métier, notamment :
 
 Ce projet m’a permis de développer mes compétences en conception d’API REST, en architecture backend et en gestion de la persistance de données avec Java.
 
-## MiniMake
+## MiniMake -- C
 
 Dans le cadre du projet **MiniMake**, j’ai implémenté un outil inspiré de `make`, permettant d’automatiser la compilation d’un projet à partir d’un fichier de règles décrivant les dépendances entre différentes cibles.
 
@@ -188,7 +188,7 @@ L’exécution repose ensuite sur une résolution de ces dépendances : chaque c
 
 Ce projet m’a permis de mieux comprendre le fonctionnement des outils de build, la gestion de graphes de dépendances ainsi que les problématiques liées à l’automatisation de la compilation.
 
-## Malloc
+## Malloc -- C
 
 Avec le projet **Malloc**, j’ai implémenté un allocateur mémoire en C, reproduisant le comportement des fonctions standards d’allocation dynamique (`malloc`, `free`, etc.).
 
@@ -200,7 +200,7 @@ Une attention particulière a été portée à l’alignement mémoire, à la pe
 
 Ce projet m’a permis d’approfondir ma compréhension de la gestion mémoire bas niveau, du fonctionnement interne des allocateurs et des enjeux de performance associés.
 
-## HTTPD
+## HTTPD -- C
 
 Dans le cadre du projet **HTTPD**, j’ai participé au développement d’un serveur HTTP en C, capable de gérer des connexions client et de répondre à des requêtes selon le protocole HTTP.
 
