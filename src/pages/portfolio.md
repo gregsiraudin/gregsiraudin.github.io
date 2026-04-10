@@ -177,3 +177,37 @@ Une attention particulière a été portée à la logique métier, notamment :
 - gestion des erreurs et cohérence des réponses API
 
 Ce projet m’a permis de développer mes compétences en conception d’API REST, en architecture backend et en gestion de la persistance de données avec Java.
+
+## MiniMake
+
+Dans le cadre du projet **MiniMake**, j’ai implémenté un outil inspiré de `make`, permettant d’automatiser la compilation d’un projet à partir d’un fichier de règles décrivant les dépendances entre différentes cibles.
+
+J’ai travaillé sur le parsing du fichier de configuration afin d’en extraire les cibles, leurs dépendances ainsi que les commandes associées. Une structure de données adaptée a été mise en place pour représenter le graphe de dépendances entre les différentes règles.
+
+L’exécution repose ensuite sur une résolution de ces dépendances : chaque cible est reconstruite uniquement si nécessaire, en fonction de l’état de ses dépendances. Cela implique une gestion précise de l’ordre d’exécution ainsi qu’une vérification des timestamps des fichiers.
+
+Ce projet m’a permis de mieux comprendre le fonctionnement des outils de build, la gestion de graphes de dépendances ainsi que les problématiques liées à l’automatisation de la compilation.
+
+## Malloc
+
+Avec le projet **Malloc**, j’ai implémenté un allocateur mémoire en C, reproduisant le comportement des fonctions standards d’allocation dynamique (`malloc`, `free`, etc.).
+
+J’ai conçu une gestion manuelle du tas mémoire en mettant en place une structure de blocs chaînés permettant de suivre les zones allouées et libres. Chaque allocation consiste à rechercher un bloc libre suffisamment grand, éventuellement à le découper, puis à retourner un pointeur vers la zone utilisable.
+
+La libération de mémoire implique quant à elle la fusion de blocs adjacents afin de limiter la fragmentation et d’optimiser la réutilisation de la mémoire disponible.
+
+Une attention particulière a été portée à l’alignement mémoire, à la performance des recherches de blocs et à la robustesse de la gestion des pointeurs.
+
+Ce projet m’a permis d’approfondir ma compréhension de la gestion mémoire bas niveau, du fonctionnement interne des allocateurs et des enjeux de performance associés.
+
+## HTTPD
+
+Dans le cadre du projet **HTTPD**, j’ai participé au développement d’un serveur HTTP en C, capable de gérer des connexions client et de répondre à des requêtes selon le protocole HTTP.
+
+J’ai travaillé sur la gestion des sockets réseau, notamment la création du serveur, l’écoute des connexions entrantes et l’acceptation des clients. Chaque requête reçue est ensuite analysée afin d’en extraire les informations essentielles (méthode, chemin, headers).
+
+Le serveur construit ensuite une réponse HTTP conforme, incluant les en-têtes nécessaires et le contenu demandé, avant de l’envoyer au client. Une attention particulière a été portée à la gestion des erreurs et à la conformité au protocole.
+
+Selon les cas, le serveur peut servir des fichiers statiques ou générer dynamiquement certaines réponses.
+
+Ce projet m’a permis de renforcer mes compétences en programmation réseau, en protocoles applicatifs et en conception de services bas niveau.
