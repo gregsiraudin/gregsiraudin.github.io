@@ -45,10 +45,6 @@ module.exports = {
               href: 'mailto:gregoire.siraudin@gmail.com',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/scinema_x',
-            },
-            {
               label: 'LinkedIn',
               href: 'https://www.linkedin.com/in/gregoire-siraudin/',
             },
